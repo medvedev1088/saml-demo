@@ -33,9 +33,10 @@
 		</form>
 	</div>
 </div>
-<h1>Welcome to Knowhere</h1>
+<h1>Welcome to Service Provider</h1>
 <div>
 	<span style="font-weight:bold">You are authenticated!</span>
+	<pre th:text="'RelayState: ' +  ${relayState}" th:if="${relayState}" />
 	<h3>Authentication Attributes:</h3>
 	<ul>
 		<li th:each="attribute : ${attributes}"

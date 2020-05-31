@@ -1,5 +1,0 @@
-apply plugin: 'org.springframework.boot'
-bootJar {
-    classifier = 'boot'
-    mainClassName = 'demo.springone2018.saml.SamlIdpSpApplication'
-}

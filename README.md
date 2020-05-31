@@ -10,6 +10,8 @@ Start the Identity Provider:
 ./gradlew demo-saml-idp:bootRun
 ```          
 
+### IDP-initiated Flow
+
 Open http://localhost:9092/demo-idp in your browser.
 
 Input user1/1q2w3e4r into Username and Password inputs.

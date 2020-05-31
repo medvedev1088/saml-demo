@@ -42,8 +42,8 @@ public class BeanConfig extends SamlIdentityProviderServerBeanConfiguration {
 	@Bean
 	public UserDetailsService userDetailsService() {
 		UserDetails userDetails = User.withDefaultPasswordEncoder()
-			.username("peter_parker")
-			.password("password")
+			.username("user1")
+			.password("1q2w3e4r")
 			.roles("USER")
 			.build();
 		return new InMemoryUserDetailsManager(userDetails);
